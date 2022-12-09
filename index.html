@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Archangel Date and Time Checker</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="icon-star.svg" alt="icon-star" />
+      <h2>Archangel Date and Time Checker</h2>
+      <p>This webapp is a mini project made by Archangel</p>
+      <section>
+        <label for="countries">Select a country: </label>
+        <select name="Country" id="Country" onchange="dateandtime()">
+          <option value="Nigeria" selected>Nigeria</option>
+          <option value="Ghana">Ghana</option>
+          <option value="China">China</option>
+          <option value="Dubai">Dubai</option>
+          <option value="India">India</option>
+          <option value="Japan">Japan</option>
+          <option value="Mexico City">Mexico City</option>
+          <option value="Korea">Korea</option>
+          <option value="USA">United States</option>
+          <option value="UK">United Kingdom</option>
+        </select>
+      </section>
+      <p class="main">
+        The date <span class="country">Nigeria</span> is
+        <span class="month">January</span> <span class="realdate">24</span> ,
+        <span class="year">2022</span> and the time is
+        <span class="hour">11</span><span>:</span><span class="minute">59</span
+        ><span>:</span><span class="seconds">am</span>.
+      </p>
+      <button class="ratemywork"><a href="rateme.html">Rate my work</a></button>
+    </div>
+    <!-- <div class="follow">
+      <h3>Follow My Socials</h3>
+    </div> -->
+    <script src="app.js"></script>
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+  </body>
+</html>

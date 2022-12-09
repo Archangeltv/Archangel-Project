@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="suggestion.css" />
+
+    <title>Archangel Date and Time Checker</title>
+  </head>
+
+  <body>
+    <div class="suggestioncontainer">
+      <img src="icon-star.svg" alt="icon-star" />
+      <h2>Make a suggestion:</h2>
+      <section>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nickname"
+          required
+        />
+        <br />
+        <textarea
+          name="message"
+          id="suggestion"
+          cols="30"
+          rows="7"
+          placeholder="Suggestion (Could also be a compliment)"
+          required
+        ></textarea>
+        <br />
+        <button id="submit" type="submit" onclick="suggestion()">
+          SUBMIT SUGGESTION
+        </button>
+        <br />
+        <button><a href="index.html">Back to Homepage</a></button>
+      </section>
+    </div>
+
+    <script src="suggestion.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("PuOJcg85T8vSKg_TZ");
+      })();
+    </script>
+  </body>
+</html>
