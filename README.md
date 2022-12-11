@@ -17,7 +17,7 @@ Colors from : Frontend Mentor.
 ## Overview
 
 This is a Coding Project by Archangel that reads your current timezone and tells time from multiple countries according to that timezone.
-Colors from : Frontend Mentor.
+Colors and Components : Frontend Mentor.
 
 - Live Site URL: [Archangel Project](https://archangeltv.github.io/Archangel-Project/)
 
@@ -47,5 +47,7 @@ CSS, Javascript
 - Twitter - [@AimiuwuVictor](https://www.twitter.com/AimiuwuVictor)
 
 ## Acknowledgments
+
+- Frontend Mentor - [Frontend Mentor](https://www.frontendmentor.io/)
 
 - CodemyHobby - [CodemyHobbyYT](https://www.youtube.com/c/codemyhobby)
