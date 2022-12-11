@@ -49,4 +49,4 @@ CSS, Javascript
 
 ## Acknowledgments
 
-- CodemyHobby - [CodemyHobby](https://www.youtube.com/c/codemyhobby)
+- CodemyHobby - [CodemyHobbyYT](https://www.youtube.com/c/codemyhobby)
